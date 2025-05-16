@@ -1,0 +1,388 @@
+/*header y foother*/
+button{
+  background-color: transparent;
+  border-style: hidden;
+  cursor: pointer; 
+}
+button:hover{
+      background-color: blue;
+      color: white;
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: transform 0.3s ease;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  padding: 0;
+}
+header{
+  background-color: red;
+  padding: 8px;
+}
+.title {
+    text-align: left;
+    font-size: 45px;
+    background: linear-gradient(50deg, #fffef7, #000000);
+    background-clip: text;
+    color: black; 
+    text-decoration: none;
+}
+.footer {
+    background: linear-gradient(45deg, #f42020, #012fff);
+    padding: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.logo{
+    width: 125px;
+    height: 125px;
+    float: right;
+}
+
+/*fin heaver y footer*/
+
+/*INICIA LA PARTE DEL MENU PROPIEDADES GENERALES */
+#encabezado .menu{
+  width: 15px;
+  float: right;
+  text-align: center;
+  border: 0px solid;
+  font-size: 20px;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+
+nav li{
+  line-height: 2.0rem;
+  position: relative;
+}
+
+.menu ul{
+  position: absolute;
+}
+
+nav a{
+  color: black;
+  display: block;
+  text-decoration: none;
+  transition: .4s;
+  padding: 10px ;
+}
+
+nav a:hover{
+  background: rgba(0,0,0,.5);
+}
+
+nav li ul{
+  float: right;
+  font-size: 17px;
+}
+
+
+/*menu parte primer nivel*/
+.menu{
+  background: transparent;
+  display: table;
+  height: auto;
+}
+
+.menu >li{
+  float: left;
+}
+
+/*menu parte segundo nivel*/
+nav li li{
+  background: blue;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .1s;
+  width: 120px;
+}
+
+nav li:hover > ul > li{
+ max-height: 250px;
+ overflow: visible; 
+}
+
+.menu > li > ul{
+top:100%;
+}
+
+/*menu parte tercer nivel*/
+.menu ul ul{
+left:100%; 
+top: 0;
+}
+
+/*FINALIZA LA PARTE DEL MENU*/
+
+
+
+/*Barra scrool*/
+::-webkit-scrollbar{
+  width: 15px;
+}
+::-webkit-scrollbar-track{
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+  background-color: transparent;
+  border-radius: 25px;
+  border: 3px solid #121212;
+}
+
+/*fin barra scrool*/
+  
+
+/*index*/
+  .frase1 {
+    background-color: lightgray;
+    padding: 1px;
+    width: 60%;
+  }
+  .frase2 {
+    background-color: lightgray;
+    padding: 1px;
+    width: 60%;
+  }
+  .img1{
+        width: 250px;
+        border: 1px solid #a2a9b1;
+        background-color: #f8f9fa;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 14px;
+        float: right;
+        margin: 10px;
+  }
+  .img2{
+        width: 250px;
+        border: 1px solid #a2a9b1;
+        background-color: #f8f9fa;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 14px;
+        float: right;
+        margin: 10px;
+  }
+
+/*Fin del index*/
+
+
+/*biografia*/
+  .img3{
+        width: 300px;
+        border: 1px solid #a2a9b1;
+        background-color: #f8f9fa;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 14px;
+        float: right;
+        margin: 10px;
+
+  }
+  .img4{
+        width: 300px;
+        border: 1px solid #a2a9b1;
+        background-color: #f8f9fa;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 14px;
+        float: right;
+        margin: 10px;
+  }
+  .titulotabla{
+    text-align: center;
+  }
+  table{
+    border-width: 15px;
+    width: 100%;
+  }
+  td{
+    border-width: 5px;
+    border-style: double;
+  }
+  .info{
+    text-align: justify;
+  }
+
+
+
+  /*fin biografia*/
+
+
+  /*Pensamiento*/
+  .infobox{
+    width: 250px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    float: right;
+    margin: 10px;
+  }
+  .infobox img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .infobox4{
+    width: 250px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    float: right;
+    margin: 10px;
+  }
+  .infobox4 img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  /*fin pensamiento*/
+
+
+  /*Discurso*/
+  .img12{
+    position: absolute;
+    right: 1rem;
+    top: 15rem;
+  }
+  .img13{
+    position: absolute;
+    right: 1rem;
+    top: 39rem;
+  }
+  /*fin discurso*/
+
+  /*Asesinato*/
+  .box{
+    width: 250px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    float: left;
+    margin: 10px;
+  }
+  .box img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .box2{
+    width: 250px;
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    float: right;
+    margin: 10px;
+  }
+.box2 img{
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+/*fin asesinato*/
+
+
+/*Discurso*/
+        .tabla2{
+            width: 90%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #ccc;
+        }
+/*fin discurso*/
+
+/*Formulario*/
+  form {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 15px;
+    background: rgb(225, 255, 1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, select, textarea, .button{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+/*fin formulario*/
+
+
+/* -------------------- MEDIA QUERY RESPONSIVO -------------------- */
+@media (max-width: 768px) {
+
+  /* Menú más compacto */
+  ul {
+    flex-direction: column;      /* Cambia de fila a columna */
+    align-items: flex-start;     /* Alinea a la izquierda */
+    padding-left: 10px;
+    gap: 10px;
+  }
+
+  /* Botones o links del menú */
+  ul li a, button {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  /* Logo más pequeño */
+  .logo {
+    width: 70px;
+    height: auto;
+  }
+
+  /* Título más pequeño y centrado */
+  .title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* Reduce márgenes generales */
+  body, main, section {
+    padding: 10px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  header {
+    text-align: center;
+  }
+}
